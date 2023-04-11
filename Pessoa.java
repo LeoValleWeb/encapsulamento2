@@ -10,11 +10,11 @@ public class Pessoa{
     public String getNome(){
         return this.nome;
     }
-    public void getNome(String nome){
+    public void setNome(String nome){
         this.nome=nome;
     }
 
-    public int setIdade(){
+    public int getIdade(){
         return this.idade;
     }
     public void setIdade(int idade){
